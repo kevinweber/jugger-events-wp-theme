@@ -1,7 +1,4 @@
 <?php
-if ( !defined( 'JUGGER_THEME_PATH' ) )
-	define( 'JUGGER_THEME_PATH', plugin_dir_path( __FILE__ ) );
-
 class JuggerEventsThemeLogin {
 
 	function __construct() {

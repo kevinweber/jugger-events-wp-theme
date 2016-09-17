@@ -4,3 +4,6 @@ if ( !defined( 'JUGGER_THEME_PATH' ) )
 
 include JUGGER_THEME_PATH . 'class/login.php';
 new JuggerEventsThemeLogin();
+
+include JUGGER_THEME_PATH . 'class/editor.php';
+new JuggerEventsThemeEditor();
